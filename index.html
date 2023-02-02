@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Encriptador</title>
+</head>
+<body>
+  <header><img src="img/Logo.png" alt="logo" class="logo"></header>
+  <main>
+    <section>
+      <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+      <div>
+        <h5 class="info">Solo letras minúsculas y sin acentos</h5>
+      </div>
+      <div class="botones">
+        <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+        <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section>
+      <div>
+        <textarea class="texto" cols="20" rows="10"></textarea>
+        <p class="pa-mono">Ningún mensaje fue encontrado Ingresa el <br> texto que desees  encriptar o desencriptar.</p>       
+      </div>
+      <div>
+        <button class="boton-copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p class="copyright">&copy Copyright gc - 2023</p>
+    </div>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+</html>
